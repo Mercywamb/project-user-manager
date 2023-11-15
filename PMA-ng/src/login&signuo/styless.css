@@ -1,5 +1,4 @@
-
-copybody {
+body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     margin: 0;
@@ -98,4 +97,142 @@ copy.container {
 
 .container input[type="submit"]:hover {
     background-color: #45a049;
+}
+
+body, nav, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+nav {
+    background: #333;
+    height: 60px;
+    display: flex;
+    body, nav, ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    
+    nav {
+        background: #333;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    .logo, .nav-links li {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo h1 {
+        color: #fff;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+    .nav-links li {
+        margin-left: 20px;
+    }
+    
+    .nav-links li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .hero {
+        background: #f2f2f2;
+        text-align: center;
+        padding: 100px 0;
+    }
+    
+    .hero h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    
+    .hero p {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 40px;
+    }
+    
+    .cta-btn {
+        display: inline-block;
+        background: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background 0.3s ease;
+    }
+    
+    .cta-btn:hover {
+        background: #555;
+    }
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+
+.logo, .nav-links li {
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+}
+
+
+.logo h1 {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background: #f2f2f2;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: #555;
 }
